@@ -1,5 +1,5 @@
 function Home() {
-  return ( <div>
+  return ( <div className="text-pink-600">
     Home
   </div> );
 }
