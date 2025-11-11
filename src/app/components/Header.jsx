@@ -20,12 +20,18 @@ export default function Header() {
         >
           <input
             type='text'
+             fdprocessedid="i0a4t"
             placeholder='Search...'
             className='bg-transparent focus:outline-none w-24 sm:w-64'
            
           />
-          <button>
-            <FaSearch className='text-slate-600' />
+          <button
+           type ="submit"
+            fdprocessedid="z1ml0m"
+          >
+            
+            <FaSearch className='text-slate-600' 
+              />
           </button>
         </form>
         <ul className='flex gap-4'>
@@ -41,7 +47,7 @@ export default function Header() {
           </Link>
           <Link href='/sign-in'>
            <li className='hidden md:inline text-slate-700 hover:underline'>
-              About
+             Sign In
                </li>
           </Link>
         </ul>
